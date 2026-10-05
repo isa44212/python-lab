@@ -5,8 +5,8 @@ number = float(input("Enter a number: "))
 print("Square:", square(number))
 
 if is_even(number):
-    print("Even: True")
+    print("Even")
 else:
-    print("Even: False")
+    print("Odd")
 
 print("Fahrenheit:", celsius_to_fahrenheit(number))
